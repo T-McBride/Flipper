@@ -2,7 +2,7 @@ $WScriptShell = New-Object -ComObject WScript.Shell
 
 $TargetFile = "http://av1.local"
 $ShortcutFile = "$Home\Desktop\Worship_Wiki.lnk"
-$IconFile = "https://github.com/T-McBride/Flipper/blob/main/usb_kb/Hopewell/Wiki.ico"
+$IconFile = "https://raw.githubusercontent.com/T-McBride/Flipper/main/usb_kb/Hopewell/Wiki.ico"
 $Shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
 
 $Shortcut.TargetPath = $TargetFile
